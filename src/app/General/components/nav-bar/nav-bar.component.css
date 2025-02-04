@@ -1,0 +1,38 @@
+*{
+    font-family: "Montserrat", serif;
+}
+
+.Header {
+    padding-right: 5px;
+    padding-left: 10px;
+    background-color: #000000eb;
+
+}
+
+.sidenav .close-sidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 64px;
+}
+
+.sidenav .close-sidenav:hover {
+    background-color: #020792;
+}
+
+.sidenav {
+    background-color: rgb(204, 204, 204);
+}
+
+.sidenav li:first-child{
+    margin-top: 30px;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+

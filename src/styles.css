@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+html{ 
+    background-image: url(https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    color: black;
+}

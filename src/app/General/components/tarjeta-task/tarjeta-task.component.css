@@ -1,0 +1,36 @@
+
+.card{
+    background-color: rgba(85, 85, 85, 0.774);
+    border-radius: 1rem;
+    width: 100%;
+}
+.ItemTitle{
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.IndivivualInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RealData{
+    color: rgb(255, 255, 255);
+    margin-left: 10px !important;
+}
+.content{
+    color: aliceblue;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+
+}
+hr {
+    width: 97%;
+    border: none;
+    border-top: 2px solid rgb(255, 255, 255);
+    margin-top: 0px;
+}

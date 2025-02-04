@@ -1,0 +1,16 @@
+<!-- solo se muestara el div cunado User y Task tengan valores -->
+<div class="Detalles" *ngIf="User && Task">
+    <h2>Detalles de la Tarea</h2>
+    <p><strong>ID:</strong> {{ Task.id }}</p>
+    <p><strong>Título:</strong> {{ Task.title }}</p>
+    <p><strong>Estado:</strong> {{ Task.completed}}</p>
+
+    <hr>
+
+    <h3>Usuario a Cargo</h3>
+    <p><strong>ID Usuario:</strong> {{ User.Id }}</p>
+    <p><strong>Nombre:</strong> {{ User.Nombre }}</p>
+    <p><strong>Correo:</strong> {{ User.Correo }}</p>
+    <p><strong>Teléfono:</strong> {{ User.Telefono }}</p>
+    <p><strong>Compañía:</strong> {{ User.Compania}}</p>
+</div>
